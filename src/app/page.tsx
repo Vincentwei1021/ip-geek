@@ -46,7 +46,7 @@ const webAppSchema = {
   "@context": "https://schema.org",
   "@type": "WebApplication",
   name: "IPGeek",
-  url: "https://ipgeek.dev",
+  url: "https://ip.toolboxlite.com",
   description:
     "Free IP address lookup tool. Find your public IP, geolocation, ISP, timezone, and coordinates instantly.",
   applicationCategory: "UtilityApplication",
