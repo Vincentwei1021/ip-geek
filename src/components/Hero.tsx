@@ -6,7 +6,9 @@ export default function Hero() {
           What Is My <span className="text-cyan-600">IP Address</span>?
         </h1>
         <p className="mt-4 text-lg text-gray-600 sm:text-xl">
-          Instantly see your public IP address, location, ISP, and more. Look up any IP — free, no sign-up.
+          Find your public IP address instantly. See your location, ISP,
+          timezone, and coordinates — or look up any IP with our free
+          IP address lookup tool. No sign-up required.
         </p>
       </div>
     </section>

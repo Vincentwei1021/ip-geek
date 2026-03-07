@@ -76,6 +76,7 @@ export default function IPLookup() {
 
   return (
     <section id="lookup" className="px-4 py-12 sm:px-6 sm:py-16">
+      <h2 className="sr-only">IP Address Lookup Tool</h2>
       <div className="mx-auto max-w-3xl">
         {/* Your IP display */}
         {!loading && data && (
