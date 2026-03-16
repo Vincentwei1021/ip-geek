@@ -1,3 +1,4 @@
+import FeedbackWidget from "@/components/FeedbackWidget";
 import Script from "next/script";
 import type { Metadata } from "next";
 import { DM_Sans, Inter } from "next/font/google";
@@ -24,7 +25,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5881105388002876" crossOrigin="anonymous" strategy="afterInteractive" />
       </head>
-      <body className={`${dmSans.variable} ${inter.variable} font-sans antialiased bg-gray-50 text-gray-900`}>{children}</body>
+      <body className={`${dmSans.variable} ${inter.variable} font-sans antialiased bg-gray-50 text-gray-900`}>{children}<FeedbackWidget /></body>
     </html>
   );
 }
