@@ -4,6 +4,7 @@ import IPLookup from "@/components/IPLookup";
 import HowTo from "@/components/HowTo";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
+import DevToolsNav from "@/components/DevToolsNav";
 
 /* ── FAQ data ── */
 const faqItems = [
@@ -174,6 +175,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <DevToolsNav currentSlug="ip-geek" />
       </main>
       <Footer />
 
