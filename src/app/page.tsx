@@ -1,3 +1,4 @@
+import AdBanner from "@/components/AdBanner";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import IPLookup from "@/components/IPLookup";
@@ -103,6 +104,7 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
+        <AdBanner className="mx-auto max-w-5xl px-4 py-4" />
         <IPLookup />
         <HowTo />
 
@@ -176,6 +178,7 @@ export default function Home() {
           </div>
         </section>
         <DevToolsNav currentSlug="ip-geek" />
+        <AdBanner className="mx-auto max-w-5xl px-4 py-6" />
       </main>
       <Footer />
 
